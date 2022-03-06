@@ -1,6 +1,8 @@
+"""
 A = int(input())
 B,C,D = map(int,list(input()))
 print(D*A)
 print(C*A)
 print(B*A)
 print(D*A + 10*C*A + 100*B*A)
+"""
