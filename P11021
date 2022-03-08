@@ -1,0 +1,11 @@
+T = int(input())
+A = list()
+B = list()
+
+for i in range(0,T):
+    num1,num2 = map(int,input().split())
+    A.append(num1)
+    B.append(num2)
+
+for i in range(0,T):
+    print("Case #{0}: {1}".format(i+1,A[i]+B[i]))
