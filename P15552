@@ -1,0 +1,14 @@
+import sys
+
+T = int(input())
+A = list()
+B = list()
+if T<=1000000:
+    for i in range(0,T):
+        num1, num2 = map(int,sys.stdin.readline().split())
+        if(1<=num1<=1000 and 1<=num2<=1000):
+            A.append(num1)
+            B.append(num2)
+
+    for i in range(0,T):
+        print(A[i] + B[i])
