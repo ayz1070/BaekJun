@@ -1,0 +1,13 @@
+T = int(input())
+A = list()
+B = list()
+
+
+for i in range(0,T):
+    num1,num2 = map(int,input().split())
+    if num1>0 and num2<10:
+        A.append(num1)
+        B.append(num2)
+
+for i in range(0,T):
+    print(A[i]+B[i])
