@@ -1,0 +1,12 @@
+T = int(input())
+A = list()
+B = list()
+
+for i in range(0,T):
+    num1,num2 = map(int,input().split())
+    if(0<num1 and num2<10):
+        A.append(num1)
+        B.append(num2)
+
+for i in range(0,T):
+    print("Case #{0}: {1} + {2} = {3}".format(i+1,A[i],B[i],A[i]+B[i]))
