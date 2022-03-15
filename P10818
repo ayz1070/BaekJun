@@ -1,0 +1,5 @@
+N = int(input())
+
+arr = list(map(int,input().split()))   # 여러 숫자 리스트에 집어넣기
+
+print(min(arr), max(arr))
