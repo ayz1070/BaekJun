@@ -1,0 +1,15 @@
+A = int(input())
+B = int(input())
+C = int(input())
+
+result = str(A*B*C)
+num = [0]*10
+
+if 100<=A <= 1000 and 100 <= B <= 1000 and 100 <= C <= 1000:
+    for i in range(0,len(result)):
+        for k in range(0,10):
+            if result[i] == str(k):
+                num[k] += 1
+
+for j in range(0,10):
+    print(num[j])
